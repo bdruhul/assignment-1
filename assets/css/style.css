@@ -230,7 +230,9 @@ main header nav {
 }
 
 .younus_text,
-.designation {
+.designation,
+.date_time,
+.news_text {
     font-family: var(--fira-sans);
     font-size: 16px;
     line-height: 24px;
@@ -301,10 +303,111 @@ select:focus {
     background-color: #fff;
     outline: none;
 }
+
 /* your option css part end */
 
 /* recent news section css part start  */
-    .recent_news{
-        padding: 30px 0px;
-    }
+.recent_news {
+    padding: 30px 0px;
+
+}
+
+.news_content {
+    background-color: #fff;
+    padding: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+
+}
+
+.news-img img {
+    border-radius: 20px;
+}
+
+.news_c_heading {
+    font-family: var(--fira-sans);
+    font-size: 32px;
+    font-weight: 700;
+    color: #0e0e0ece;
+
+}
+
+.news_right_content img {
+    padding: 12px 0px;
+}
+
+.news_btn {
+    padding: 11px 20px;
+    border: none;
+    outline: none;
+    border: 1px solid #006A50;
+    background-color: #006A50;
+    border-radius: 8px;
+    color: #fff;
+    font-family: var(--fira-sans);
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+
+.news_btn:hover {
+    border: 1px solid #006A50;
+    background-color: #fff;
+    color: #006A50;
+    transition: all linear 0.3s;
+}
+
 /* recent news section css part end */
+/* donate section css part start  */
+    .donate{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .donate_box{
+        gap: 24px;
+    }
+    .donate_box-content{
+        margin: 32px 0px;
+    }
+    .donate_ammount{
+        padding:25px;
+        background-color: #fff;
+        border-radius: 16px;
+        font-family: var(--fira-sans);
+        font-size: 40px;
+        color: #0e0e0eca;
+        font-weight: 700;
+        transition: all linear 0.3s;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    .donate_ammount:hover{
+        background-color: #C6E4D6;
+        transition: all linear 0.3s;
+
+    }
+    .donate_input{
+     margin-bottom: 25px;
+
+    }
+    .donate_input input{
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 7px;
+    }
+    .donate_input input::placeholder{
+        text-align: center;
+        font-family: var(--fira-sans);
+        font-size: 20px;
+        font-weight: 400;
+    }
+/* donate section css part end */
