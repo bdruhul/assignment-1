@@ -232,7 +232,8 @@ main header nav {
 .younus_text,
 .designation,
 .date_time,
-.news_text {
+.news_text,
+.newsletter_text, .news_bottom_text {
     font-family: var(--fira-sans);
     font-size: 16px;
     line-height: 24px;
@@ -363,51 +364,104 @@ select:focus {
 
 /* recent news section css part end */
 /* donate section css part start  */
-    .donate{
-        width: 70%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .donate_box{
-        gap: 24px;
-    }
-    .donate_box-content{
-        margin: 32px 0px;
-    }
-    .donate_ammount{
-        padding:25px;
-        background-color: #fff;
-        border-radius: 16px;
-        font-family: var(--fira-sans);
-        font-size: 40px;
-        color: #0e0e0eca;
-        font-weight: 700;
-        transition: all linear 0.3s;
-        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    }
+.donate {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
 
-    .donate_ammount:hover{
-        background-color: #C6E4D6;
-        transition: all linear 0.3s;
+.donate_box {
+    gap: 24px;
+}
 
-    }
-    .donate_input{
-     margin-bottom: 25px;
+.donate_box-content {
+    margin: 32px 0px;
+}
 
-    }
-    .donate_input input{
-        width: 100%;
+.donate_ammount {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 16px;
+    font-family: var(--fira-sans);
+    font-size: 40px;
+    color: #0e0e0eca;
+    font-weight: 700;
+    transition: all linear 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.donate_ammount:hover {
+    background-color: #C6E4D6;
+    transition: all linear 0.3s;
+}
+.donate_input {
+    margin-bottom: 25px;
+
+}
+.donate_input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 7px;
+}
+.donate_input input::placeholder {
+    text-align: center;
+    font-family: var(--fira-sans);
+    font-size: 20px;
+    font-weight: 400;
+}
+/* donate section css part end */
+/* newsletter section css part start  */
+.newsletter {
+    padding: 80px 265px;
+    background-color: #C6E4D6;
+    margin: 80px auto;
+    border-radius: 24px;
+    text-align: center;
+}
+.news_input form{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    position: relative;
+    text-align: left;
+    border-radius: 8px;
+}
+.news_input form input{
+        width: 85%;
+        height: 100%;
+        margin: 0;
         border: none;
         outline: none;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-        border-radius: 7px;
-    }
-    .donate_input input::placeholder{
+        border-radius: 8px;
+        padding-left:40px ;
+        padding-right: 20px;
+}
+.newslatter_btn{
+    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #006A50;
+    color: #fff;
+    cursor: pointer;
+}
+.news_bottom_text{
+margin-top: 15px;
+}
+/* newsletter section css part end */
+/* footer section css part start  */
+    .footer{
         text-align: center;
-        font-family: var(--fira-sans);
-        font-size: 20px;
-        font-weight: 400;
+        padding: 0 !important;
+        margin: 0 !important;
     }
-/* donate section css part end */
+/* footer section css part end */
